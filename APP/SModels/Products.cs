@@ -10,7 +10,7 @@ public class Product
   public string Name {get;set;}
   public string Description {get;set;}
   public double Price {get; set;}
-  pubblic int IDNumber {get;set;}
+  public int IDNumber {get;set;}
   
   public Prodcut(string name, string description, double price, int idnumber)
   {
