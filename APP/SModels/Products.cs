@@ -8,11 +8,10 @@ namespace SMdodels
 public class Product
 {
   public string Name {get;set;}
-  public string Description {get;set;}
   public double Price {get; set;}
-  public int IDNumber {get;set;}
+
   
-  public Prodcut(string name, string description, double price, int idnumber)
+  public Prodcut(string name, double price)
   {
     this.Name= name;
     this.Description =description;
@@ -20,12 +19,12 @@ public class Product
     this.IDNumber=idnumber;
  }
  
- public Product(){
+
  
  public override string ToString()
  {
- return$:"Name:{this.Name}\n Description: {this.Description}\n Price: {this.Price} \IDNumber: {this.IDNumber}";
+ return$:"Name:{this.Name}\n \n Price: {this.Price}}";
  }
  
-}
+
 }
