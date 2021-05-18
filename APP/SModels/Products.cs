@@ -14,9 +14,9 @@ public class Product
   public Prodcut(string name, double price)
   {
     this.Name= name;
-    this.Description =description;
+
     this.Price=price;
-    this.IDNumber=idnumber;
+
  }
  
 
